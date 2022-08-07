@@ -20,7 +20,7 @@ public class Doc_update {
         );
         UpdateRequest request = new UpdateRequest();
         request.index("user").id("1001");
-        request.doc(XContentType.JSON,"sex","男");
+        request.doc(XContentType.JSON,"sex","女");
         UpdateResponse indexResponse = client.update(request, RequestOptions.DEFAULT);
         System.out.println(indexResponse);
 
