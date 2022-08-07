@@ -18,6 +18,10 @@ public class Create_Index {
         CreateIndexResponse response = esClient.indices().create(request, RequestOptions.DEFAULT);
         boolean responseAcknowledged = response.isAcknowledged();
         System.out.println(responseAcknowledged);
+        CreateIndexRequest request1 = new CreateIndexRequest("user1");
+        CreateIndexResponse response1 = esClient.indices().create(request1, RequestOptions.DEFAULT);
+        boolean responseAcknowledged1 = response1.isAcknowledged();
+        System.out.println(responseAcknowledged1);
         esClient.close();
     }
 }
