@@ -21,7 +21,8 @@ public class Doc_Insert {
         request.index("user").id("1001");
         user user=new user();
         user.setName("李四");
-        user.setAge(19);
+        user.setName("nisha");
+        user.setAge(18);
         user.setSex("女");
 
         ObjectMapper mapper = new ObjectMapper();
