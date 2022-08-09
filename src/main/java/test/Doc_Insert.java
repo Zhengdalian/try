@@ -23,7 +23,7 @@ public class Doc_Insert {
         user.setName("李四");
         user.setAge(15);
         user.setSex("男");
-
+        user.setSex("男男");
         ObjectMapper mapper = new ObjectMapper();
         String s = mapper.writeValueAsString(user);
 
