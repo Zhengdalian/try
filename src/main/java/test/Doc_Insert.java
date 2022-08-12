@@ -20,7 +20,7 @@ public class Doc_Insert {
         IndexRequest request = new IndexRequest();
         request.index("user").id("1001");
         user user=new user();
-        user.setName("李四212");
+        user.setName("李四2xg");
         user.setName("王五");
         user.setAge(16);
         user.setSex("男");
