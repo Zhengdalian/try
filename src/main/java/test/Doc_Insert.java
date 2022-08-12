@@ -22,7 +22,7 @@ public class Doc_Insert {
         user user=new user();
         user.setName("李四");
         user.setName("王五");
-        user.setAge(15);
+        user.setAge(16);
         user.setSex("男");
 
         ObjectMapper mapper = new ObjectMapper();
