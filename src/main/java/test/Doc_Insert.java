@@ -25,6 +25,7 @@ public class Doc_Insert {
         user.setAge(16);
         user.setSex("男");
         user.setSex("女11");
+        user.setSex("zss");
         ObjectMapper mapper = new ObjectMapper();
         String s = mapper.writeValueAsString(user);
 
